@@ -1,8 +1,0 @@
-"/Users/infraestructurasorteostec/Documents/Workspace/MenuIconsTry/build/android/gen/android/support/v7/appcompat/R.java"
-"/Users/infraestructurasorteostec/Documents/Workspace/MenuIconsTry/build/android/gen/android/support/v7/cardview/R.java"
-"/Users/infraestructurasorteostec/Documents/Workspace/MenuIconsTry/build/android/gen/com/test/MenuIconsTry/AssetCryptImpl.java"
-"/Users/infraestructurasorteostec/Documents/Workspace/MenuIconsTry/build/android/gen/com/test/MenuIconsTry/MenuiconstryActivity.java"
-"/Users/infraestructurasorteostec/Documents/Workspace/MenuIconsTry/build/android/gen/com/test/MenuIconsTry/MenuiconstryAppInfo.java"
-"/Users/infraestructurasorteostec/Documents/Workspace/MenuIconsTry/build/android/gen/com/test/MenuIconsTry/MenuiconstryApplication.java"
-"/Users/infraestructurasorteostec/Documents/Workspace/MenuIconsTry/build/android/gen/com/test/MenuIconsTry/R.java"
-"/Users/infraestructurasorteostec/Documents/Workspace/MenuIconsTry/build/android/gen/ti/modules/titanium/ui/R.java"
