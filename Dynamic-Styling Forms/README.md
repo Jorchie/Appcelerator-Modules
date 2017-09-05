@@ -112,7 +112,8 @@ First the !empty check
  	if(missingvals){
  		alert("Please fill All the fields in the form");
  	}
-  ```
+```
+
 Ok, so we will store every textfield(by its ID) that we want to be filled in the textfields Array and create a bool missingvals just to tell us if there are values missing and so.
 
 After we store them we start checking if each textfield's value its not a blank field, for this example i dont care what they want to be called like i just want them to write something in their name and last name.
@@ -120,6 +121,7 @@ After we store them we start checking if each textfield's value its not a blank 
 if there is a missing value it will return a true and ask us to fill all the textfields
 
 and then the rest of the verifications (email is valid, passwords match)
+
 ```
  	else if(!validateEmail($.correo.value)){
  		alert("Please use a valid email address");
@@ -131,9 +133,10 @@ and then the rest of the verifications (email is valid, passwords match)
  		alert("Account Created"); 
  		}
 ```
-In the validateEmail we used a normal js function to check if the email has a valid format which is just below the create account function.
-```
 
+In the validateEmail we used a normal js function to check if the email has a valid format which is just below the create account function.
+
+```
 function validateEmail(email) {
   var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
