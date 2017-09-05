@@ -141,6 +141,9 @@ function validateEmail(email) {
   var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 ```
+
+<img src="https://github.com/Jorchie/Images/blob/master/formcheck.gif" width="250px" height="450px">
+
 And that's it for the whole form. Hope it helps!
 
 i will be updating the code if needed (or if i manage to animate the text to go up, the color to fade in/out and so without taking a huge ton of memory or needing to add widgets) 
