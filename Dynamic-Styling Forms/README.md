@@ -17,3 +17,5 @@ Now the Actual How to Use this stuff
 
 
 Firs of all, here is a small preview of a form using this code.
+
+<img src="https://github.com/Jorchie/Images/blob/master/colorchangeform.gif">
