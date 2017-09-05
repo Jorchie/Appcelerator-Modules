@@ -6,10 +6,10 @@
 		<View id="lname" class="tfView"></View>
 		<TextField id="correo" onFocus="tfFocus" onBlur="tfBlur"  hintText="Correo" name="mail" class="textField" />
 		<View id="mail" class="tfView"></View>
-		<TextField id="password" onFocus="tfFocus" onBlur="tfBlur"  hintText="Password" name="pword" class="textField" />
+		<TextField id="password" onFocus="tfFocus" onBlur="tfBlur"  hintText="Password" name="pword" class="textField pword" />
 		<View id="pword" class="tfView"></View>
-		<TextField id="password2" onFocus="tfFocus" onBlur="tfBlur"  hintText="Confirmar Correo" name="pwordConfirm" class="textField" />
+		<TextField id="password2" onFocus="tfFocus" onBlur="tfBlur"  hintText="Confirm Password" name="pwordConfirm" class="textField pword" />
 		<View id="pwordConfirm" class="tfView"></View>
-		<Button title="ENVIAR"/>
+		<Button title="ENVIAR" onClick="CreateAccount" />
 	</Window>
 </Alloy> 
