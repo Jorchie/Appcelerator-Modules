@@ -46,16 +46,16 @@ needing to code a lot, so as i've allready said the app.tss will handle the styl
 
 ```
   <!--Card Start-->
-      <View class="card-style"  layout="vertical">
-          <View class="card-Info">
-			 		  <ImageView class="card-Image" image="/customImage.png" />  
-					  <Label class="image-text">Hello world!</Label>  
-          </View>
-			 	  <View class="card-Info" layout="vertical">
-					  <Label class="card-text">waddap m8! </Label>
-					  <Button class="btn" title="Check the cards!" /> 
-			 	  </View>
-			</View>
+<View class="card-style"  layout="vertical">
+  <View class="card-Info">
+	<ImageView class="card-Image" image="/customImage.png" />  
+	<Label class="image-text">Hello world!</Label>  
+  </View>
+  <View class="card-Info" layout="vertical">
+	 <Label class="card-text">waddap m8! </Label>
+	 <Button class="btn" title="Check the cards!" /> 
+  </View>
+</View>
   <!--Card End-->
 ```
 
