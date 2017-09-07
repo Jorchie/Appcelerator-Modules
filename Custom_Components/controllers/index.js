@@ -4,10 +4,10 @@ $.navigateTobtn.addEventListener('click', function(e) {
 	buttons.open();
 });
 
-$.navigateTolv.addEventListener('click', function(e) {
-	var listView = Alloy.createController('listView');
-	listView = listView.getView();
-	listView.open();
+$.navigateToCards.addEventListener('click', function(e) {
+	var cards = Alloy.createController('cards');
+	cards = cards.getView();
+	cards.open();
 });
 
 $.index.open();

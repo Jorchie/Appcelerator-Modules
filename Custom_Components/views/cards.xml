@@ -1,0 +1,43 @@
+<Alloy>
+	<Window  class="container" >
+		<ScrollView class="scrollview" layout="vertical" height="100%" width="100%">
+            <!--Card Start-->
+            <View class="card-style"  layout="vertical">
+            	<View class="card-Info">
+			 		<ImageView class="card-Image" image="/customImage.png" />  
+					<Label class="image-text">Hello world!</Label>  
+            	</View>
+			 	<View class="card-Info" layout="vertical">
+					<Label class="card-text">waddap m8! </Label>
+					<Button class="btn" title="Check the cards!" /> 
+			 	</View>
+			</View>
+            <!--Card End-->
+            <!--Card Start-->
+            <View class="card-style"  layout="vertical">
+            	<View class="card-Info">
+			 		<ImageView class="card-Image" image="/customImage2.png" />  
+					<Label class="image-text">Hello world!</Label>  
+            	</View>
+			 	<View class="card-Info" layout="vertical">
+					<Label class="card-text">waddap m8! </Label>
+					<Button class="btn" title="Check the cards!" /> 
+			 	</View>
+			</View>
+            <!--Card End-->
+            <!--Card Start-->            <View class="card-style"  layout="vertical">
+            	<View class="card-Info">
+			 		<ImageView class="card-Image" image="/customImage.png" />  
+					<Label class="image-text">Hello world!</Label>  
+            	</View>
+			 	<View class="card-Info" layout="vertical">
+					<Label class="card-text">waddap m8! </Label>
+					<Button class="btn" title="Check the cards!" /> 
+			 	</View>
+			</View>
+            <!--Card End-->
+ 
+			<Button name="black" id="CloseThisOne" class="btn black" title="Ok Close it" />
+        </ScrollView>
+	</Window>
+</Alloy>  

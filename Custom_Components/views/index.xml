@@ -1,6 +1,6 @@
 <Alloy>
 	<Window  layout="horizontal">
 		<Button id="navigateTobtn" class="btn" title="Check the buttons!" /> 
-		<Button id="navigateTolv" class="btn" title="Check the List View!" /> 
+		<Button id="navigateToCards" class="btn" title="Check the cards!" /> 
     </Window>
 </Alloy>      
