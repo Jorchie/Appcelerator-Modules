@@ -2,6 +2,9 @@
 .DS_Store
 npm-debug.log
 node_modules
+android
+iphone
+mobileweb
 lib-cov
 coverage.html
 junit_report.xml
