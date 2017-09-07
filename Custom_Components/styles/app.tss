@@ -1,0 +1,27 @@
+".btn":{
+	borderRadius: 5,
+	top: 15
+}
+
+".red":{
+	backgroundColor: "#f44336"
+}
+ 
+".black":{
+	backgroundColor: "#555555",
+	color: "white"
+}
+ 
+".gray":{
+	backgroundColor:"#e7e7e7",
+	color: "black"
+}
+
+".blue":{
+	backgroundColor: "#008CBA"
+}
+
+".green":{
+	backgroundColor: "#4CAF50"
+}
+

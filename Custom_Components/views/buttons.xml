@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+		<Button name="red" class="btn red" title="Red btn" />
+		<Button name="blue" class="btn blue" title="Blue btn" />
+		<Button name="green" class="btn green" title="Green btn" />
+		<Button name="gray" class="btn gray" title="Gray btn" />
+		<Button name="black" id="CloseThisOne" class="btn black" title="Ok Close it" />
+	</Window>
+</Alloy>
+Get data

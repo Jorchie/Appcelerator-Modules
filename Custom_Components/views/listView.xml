@@ -1,0 +1,15 @@
+<Alloy>
+	<Window  backgroundColor="white">
+        <ListView id="listView" defaultItemTemplate="templateContacto">
+            <Templates>
+                <ItemTemplate name="template">
+                    <ImageView bindId="pic" id="icon" />
+                    <Label bindId="info" id="title" />
+                    <Label bindId="es_info" id="subtitle" />
+                </ItemTemplate>
+            </Templates>
+            <ListSection name="contacto">
+            </ListSection>
+        </ListView>
+	</Window>
+</Alloy>
