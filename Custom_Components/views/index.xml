@@ -2,5 +2,6 @@
 	<Window  layout="horizontal">
 		<Button id="navigateTobtn" class="btn" title="Check the buttons!" /> 
 		<Button id="navigateToCards" class="btn" title="Check the cards!" /> 
+		<Button id="navigateToTiles" class="btn" title="Check the tiles!" /> 
     </Window>
 </Alloy>      

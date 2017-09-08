@@ -1,0 +1,47 @@
+<Alloy>
+	<Window  class="container" >
+		<ScrollView class="scrollview" layout="vertical" height="100%" width="100%">
+            <!--tile Start-->
+            <View class="tile-style"  layout="horizontal">
+            	<View class="tile-data" layout="vertical">
+	           		<Label class="tile-title">This is the Title</Label>
+	           		<Label class="tile-text">This is some text!</Label>
+            	</View> 
+            	<View class="tile-banner">
+            		<ImageView class="tile-Image" image="/customImage.png" />
+					<Label class="image-text">You can write here</Label>  
+            	</View> 
+			</View>
+            <!--tile End-->
+            <!--tile Start-->
+            <View class="tile-style"  layout="horizontal">
+            	<View class="tile-full-size" layout="vertical">
+	           		<Label class="tile-title">This is the Title</Label>
+	           		<Label class="tile-text">This is a full size Tile just for text!!</Label>
+            	</View>  
+			</View>
+            <!--tile End-->
+            <!--tile Start-->
+            <View class="tile-style" backgroundColor="#555555" layout="horizontal">
+            	<View class="tile-data" layout="vertical">
+	           		<Label class="tile-title" color="white">This is the Title</Label>
+	           		<Label class="tile-text" color="white">This is some text!</Label>
+            	</View> 
+            	<View class="tile-banner">
+            		<ImageView class="tile-Image"image="/customImage2.png" />
+					<Label class="image-text">You can write here</Label>  
+            	</View> 
+			</View>
+            <!--tile End-->
+            <!--tile Start-->
+            <View class="tile-style" backgroundColor="#555555" layout="horizontal">
+            	<View class="tile-full-size" layout="vertical">
+	           		<Label class="tile-title" color="white">This is Another Title</Label>
+	           		<Label class="tile-text" color="white">This is other full size Tile just for text!!</Label>
+            	</View>  
+			</View>
+            <!--tile End-->
+	    	<Button name="black" id="CloseThisOne" class="btn black" title="Ok Close it" />
+		</ScrollView>
+	</Window>
+</Alloy>

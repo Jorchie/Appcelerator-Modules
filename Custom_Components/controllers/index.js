@@ -10,4 +10,10 @@ $.navigateToCards.addEventListener('click', function(e) {
 	cards.open();
 });
 
+$.navigateToTiles.addEventListener('click', function(e) {
+	var tiles = Alloy.createController('tiles');
+	tiles = tiles.getView();
+	tiles.open();
+});
+
 $.index.open();

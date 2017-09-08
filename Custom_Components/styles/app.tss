@@ -27,12 +27,12 @@
 }
 
 //Cards styles
-
 ".card-style":{
 	width: "90%",
 	height: Ti.UI.SIZE,
 	backgroundColor: "White",
-	top: 10
+	top: 10,
+	borderRadius: 2
 }
 
 ".card-Image":{
@@ -62,4 +62,47 @@
  
 ".scrollview": {
 	 scrollType: "vertical"
+}
+
+//Tile Style
+".tile-style":{
+	width: "90%",
+	height: 150,
+	backgroundColor: "white",
+	textAlign:  Ti.UI.TEXT_ALIGNMENT_LEFT,
+	top: 10
+}
+".tile-title":{
+	color: "black",    
+	font: { 
+        fontSize: 20, 
+        fontWeight: 'bold'
+   },
+   left: 5,
+   top: 5
+}
+
+".tile-text":{
+	color: "black",    
+	font: { 
+        fontSize: 12
+   },
+   left: 5,
+   top: 5
+}
+".tile-data":{
+	width: "60%"
+}
+".tile-banner":{
+	width: "40%"
+}
+".tile-full-size":{ 
+	width: "95%"
+}
+".tile-Image":{
+    width:Ti.UI.Fill,
+    height: Ti.UI.FILL,
+	top: 5,
+	bottom: 5,
+	right: 5
 }
