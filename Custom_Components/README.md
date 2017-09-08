@@ -161,9 +161,9 @@ Now the Image Tile
 		<Label class="image-text">You can write here</Label>  
 	</View> 
 </View> 
-´´´
+```
 
-In these case we have the same tile-style that will manage the borders and background color to stars, and then we have a  `layout="horizontal"´, this because our tile will be separated and we want appcelerator to place the 2 sections (image and text sections) one besides the other. once that done we will declare our `tile-data`view shich pretty much will include the text, as you can see it will have the same format as our simple tile inside.
+In these case we have the same tile-style that will manage the borders and background color to stars, and then we have a  `layout="horizontal"` , this because our tile will be separated and we want appcelerator to place the 2 sections (image and text sections) one besides the other. once that done we will declare our `tile-data` view shich pretty much will include the text, as you can see it will have the same format as our simple tile inside.
 
 Then for the `tile-image` section, in here we are not going to specify a layout in order to get the `image-text`over the image (this is just a feature and can be avoided to place), so in this case we had set the ` tile-data `'s size to fit the 60% of the tile and the `tile-image` to fit the other 40%.
 
