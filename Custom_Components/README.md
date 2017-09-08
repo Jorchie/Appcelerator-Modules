@@ -15,13 +15,6 @@ Author & Contributor List
 Now the Actual How to Use this stuff
 ====================
 
-
-Firs of all, here is a small preview of a form using this code.
-
-<img src="https://github.com/Jorchie/Images/blob/master/appcbuttons.png" width="250px" height="450px">
-
---------------------
-
 Ok so lets Jump into it!
 
 First of all, this is not actually a plugin, every single thing you might need to create the buttons, cards and a couple more things
