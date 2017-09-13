@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="index">
+		<View id="MainView">
+			<Label>sdfbnvkdfnjkc</Label>
+		</View>
+	 	<Button id="menuButton"></Button>
+		<View id="menuWindow"> 
+			<TableView id="table">
+	            <TableViewSection id="menu">
+					<TableViewRow id="MenuItem" title="Apple1"/>
+					<TableViewRow id="MenuItem" title="Apple2"/>
+					<TableViewRow id="MenuItem" title="Apple3"/>
+					<TableViewRow id="MenuItem" title="Apple4"/>
+					<TableViewRow id="MenuItem" title="Apple5"/>
+					<TableViewRow id="MenuItem" title="Apple6"/>
+				</TableViewSection>
+				</TableView>
+		</View>
+	</Window>
+</Alloy>
