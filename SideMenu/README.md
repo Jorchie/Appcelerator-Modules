@@ -55,3 +55,77 @@ First of all lets check out how the View works
 </Alloy>
 ```
 
+I guess this pretty much explains by it self so I will go stright to the Controller separateing it on 3 sections:
+
+```
+$.index.open();
+
+var toggle = false;
+$.menuWindow.hide();
+$.menuButton.addEventListener('click', function(e) { 
+    if (toggle) {
+        toggle = false;
+		$.MainView.animate({
+			left: 0,
+			duration: 250
+		});
+		$.menuButton.animate({ 
+			left: 0,
+			duration: 250
+		});
+		$.menuWindow.animate({
+			left: "-50%",
+			duration: 250
+		});
+        $.menuWindow.hide();
+    } 
+```
+
+In here First we will start by opening our index which will bring the app to start,
+Then we will be creating the button event click for our "Open Menu" button which will be using out bool toggle to know if the menu is active or not. and then we will start changing de modes, for example when toggle is true turn it to false and animate the MainView and the menuButton to let the menu window to be visible, this onw will also get an animate to make the animation look smooth
+
+
+```
+else {
+        toggle = true; 
+	$.MainView.animate({
+		left: "50%",
+		duration: 250
+	});
+	$.menuButton.animate({ 
+		left: "50%",
+		duration: 250
+	}); 
+	$.menuWindow.show();
+	$.menuWindow.animate({
+		left: 0,
+		duration: 250
+	});
+    }
+});
+```
+After that we Have our else (meanning if !toggle), in here we add a reversed animation to hide the menu when clicked back on the button.
+
+```
+$.MainView.addEventListener('click', function(e) {
+    if (toggle) {
+        $.menuWindow.hide();
+        toggle = false;
+	$.MainView.animate({
+		left: 0,
+		duration: 500
+	});
+	$.menuButton.animate({ 
+		left: 0,
+		duration: 250
+	}); 
+	$.menuWindow.animate({
+		left: "-50%",
+		duration: 250
+	});
+    }
+});
+```
+And the last part will be to create the close menu event if clicked anywhere else that the menu
+
+
